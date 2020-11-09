@@ -1,0 +1,148 @@
+       /* Logo image */
+
+header {
+    text-align: center;
+}
+
+            /* Background image */
+
+body{
+    background-image: url(https://image.freepik.com/free-photo/slate-textured-dark-background_23-2148238443.jpg);
+}
+
+          /* Barre de naviguation */
+
+.topnav {
+    background-color:black;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: optima;
+    background-color: black;
+  }
+  
+.topnav a:hover {
+    background-color:white;
+    color: black;
+  }
+  
+.topnav a.acceuil a:hover {
+    background-color: black;
+    color: white;
+    }
+
+          /* Formulaire */
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+}
+
+input:focus, textarea:focus{
+    border-color: rgba(255, 255, 0, 0.719);
+    border-width: 0.5rem;
+    box-shadow:10px 10px 10px rgba(255, 255, 0, 0.719);
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin: 1px;  
+    padding: 1px;
+  }
+  
+  .field {
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  form:invalid {
+    border: 5px solid #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  form:valid {
+    border: 5px solid green;
+}
+    
+  input:required {
+    border-color: green;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #c00000;
+  }
+
+      input[type=submit] {
+        background-color:black;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      
+       input[type=submit]:hover {
+        background-color: #45a049;
+      }
+      
+      .container {
+        border-radius: 5px;
+        background-color: white;
+        padding: 20px;
+      }   
+ 
+      input[type=reset] {
+        background-color:black;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      
+       input[type=reset]:hover {
+        background-color: #45a049;
+      }
+    
+
+      .heure {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+    }  
+
+    .heureinput,.heure {
+        margin: .4rem 0;
+    }
+
+    .date {
+      display: block;
+      font: 1rem 'Fira Sans', sans-serif;
+  }
+  
+  .dateinput , .date {
+      margin: .4rem 0;
+  }

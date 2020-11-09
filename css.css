@@ -1,0 +1,88 @@
+.titre {
+text-align: center;
+color: white;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+header {
+  text-align: center;
+
+}
+
+
+.img {
+align-content: center;
+margin-top: auto;
+}
+
+
+.titre2 {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+ /* DIV pour image et texte du CHEF */
+
+ .borderimg{
+  border: 3px solid black;
+ }
+
+ div#content div{
+   display: inline-block;
+   width: 30%;
+ } 
+
+ div#content div.onebox {
+    vertical-align: top;
+  }
+
+  div#content div.onebox h1,p{
+    margin: 50px;
+  }
+
+
+ div#content div.twobox {
+  
+  
+}
+
+
+ 
+
+.jour {
+    color: white;
+    background-color: black;   
+
+}
+
+body{
+
+    background-image: url(https://image.freepik.com/free-photo/slate-textured-dark-background_23-2148238443.jpg);
+    
+}    
+
+
+.topnav {
+    background-color:black;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: optima;
+    background-color: black;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }

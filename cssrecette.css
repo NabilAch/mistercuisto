@@ -1,0 +1,124 @@
+.titre {
+    color:white;
+    text-align: center;
+    
+}
+
+header{
+    text-align: center;
+    
+}
+    
+
+.topnav {
+    background-color:black;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: optima;
+    background-color: black;
+  }
+  
+.topnav a:hover {
+    background-color:white;
+    color: black;
+  }
+  
+.topnav a.acceuil a:hover {
+    background-color: black;
+    color: white;
+    }
+   
+
+ body {
+
+    background-image: url(https://image.freepik.com/free-photo/slate-textured-dark-background_23-2148238443.jpg);
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.desc {
+    color: white;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: black;
+    
+}
+
+.plat {
+    color:white;
+    text-align: justify;
+}
+
+.prix {
+    box-sizing: border-box;
+    color:white;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-color: white;
+}
+
+.confit {
+    height: 300px;
+    margin-right: auto;
+    padding: auto;
+    bottom: 60px;
+    float: right;
+    border: 3px solid black;
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+.tableau  {
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  height: 350px;
+  margin-top: 65px;
+  color: white;
+  border:3px solid gray;
+  background-color: black;
+  font: normal 14px "Calibri"; text-align: center;
+  padding: 10px;
+}
+
+iframe{
+ width: 200px; height: 150px;  float: center;
+}
+
+.txt {
+    margin-right: auto;
+    margin: auto;
+}
+
+.socm {
+    color: white;
+    font: normal 14px "Calibri";
+    text-align: center;
+}
+
+
+
+

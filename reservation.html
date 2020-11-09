@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+  <link rel="stylesheet" href="reservationcss.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Réservation</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo2.png" />
+
+</head>
+
+<body>
+
+  <header>
+
+    <!-- Logo avec liens retour accueil -->
+    <a href="index.html">
+
+      <img src="img/logo2.png" alt="logo">
+
+    </a>
+
+  </header>
+
+  <div class="topnav">
+    <!-- Barre de naviguation en div -->
+    <strong>
+      <a class="acceuil" href="index.html">Acceuil</a>
+      <a class="carte" href="recette1.html">Notre carte</a>
+      <a href="#contact">Nous contacter</a>
+      <a href="#infos">A propos de nous</a>
+      <a href="#livre">Livre d'or</a>
+    </strong>
+  </div>
+
+  <!--Formulaire linker au formulaire.php-->
+  <div class="container" class="field">
+    <form action="php/formulaire.php" method="POST">
+
+      <label for="fname">Prénom</label>
+      <input type="text" required id="fname" name="prenom" placeholder="Votre prénom..">
+
+      <label for="lname">Nom</label>
+      <input type="text" required id="lname" name="nom" placeholder="Votre nom..">
+
+      <label for="eemail">E-mail</label>
+      <input type="text" required id="email" name="email" placeholder="Votre email..">
+
+      <label for="tel">Téléphone</label>
+      <input type="text" required id="tel" name="telephone" placeholder="Votre numéro de télépone..">
+
+      <label for="nmobile">Mobile</label>
+      <input type="text" required id="mobile" name="mobile" placeholder="Votre numéro de mobile..">
+
+      <label for="rue">Adresse</label>
+      <input type="text" required id="adress" name="adresse" placeholder="Votre adresse..">
+
+
+      <!-- Formulaire Heure -->
+
+      <label class="heure" for="appt">Heure de reservation</label>
+
+      <input class="heureinput" type="time" id="appt" name="heure" min="12:00" max="16:00" required>
+
+      <small>Disponibilité entre 12h et 16h</small>
+
+      <!-- Formulaire Dates -->
+
+      <label class="date" for="start">Choissisez le jour de votre reservation</label>
+
+      <input classe="dateinput" type="date" id="start" name="date" value="2020-01-31" min="2020-01-01" max="2021-01-31">
+
+
+      <!--Commentaires, Submit et reset-->
+
+      <label for="subject">Votre commentaire</label>
+
+      <textarea required id="subject" name="commentaire" placeholder="Écrivez quelque chose.."
+        style="height:200px"></textarea>
+
+      <input required type="submit" value="Envoyez">
+
+      <input type="reset" value="Réinitialiser">
+
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>
